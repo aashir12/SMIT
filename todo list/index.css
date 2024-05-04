@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+}
+.cover{
+    width: 50%;
+    margin: auto;
+}
+.cover > .heading{
+    width: 100%;
+    background: blueviolet;
+    text-align: center;
+    color: white;
+}
+.cover > .main{
+    margin-top: 10px;
+    text-align: center;
+    background: white;
+    padding: 5%;
+}
+.main >button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 2%;
+    cursor: pointer;
+}
+.tasKCover{
+    margin-top: 20px;
+}
+.tasKCover > .task{
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+.task:nth-child(2){
+    cursor: pointer;
+}
+
+
